@@ -1,0 +1,46 @@
+* {
+    //If you set box-sizing: border-box; on an element, 
+    //padding and border are included in the width and height:
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: $scale;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--surface-ground);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--primary-color);
+}
+
+.layout-wrapper {
+    min-height: 100vh;
+}
+
+// custom scrollbar
+::-webkit-scrollbar {
+    width: 0.3em;
+    height: 0.7em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    // box-shadow: inset 0 0 6px rgba(161, 152, 152, 0.3);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #dee2e6;
+    //outline: 1px solid slategrey;
+    border-radius: 4px;
+  }

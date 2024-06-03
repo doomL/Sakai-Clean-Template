@@ -1,0 +1,29 @@
+// TODO
+
+@media(min-width: 992px) {
+    .layout-wrapper {
+        &.layout-static-inactive {
+            .layout-sidebar {
+                transform: translateX(-100%);
+                left: 0;
+            }
+
+            // TODO
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    .layout-wrapper {
+        // TODO
+
+        .layout-sidebar {
+            // transform: translateX(-100%);
+            left: 0;
+            top: 0;
+            height: 100vh;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
